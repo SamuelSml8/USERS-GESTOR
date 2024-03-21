@@ -1,0 +1,23 @@
+{
+  "name": "users-gestor",
+  "version": "1.0.0",
+  "description": "SIMULACRO DE NODEJS.  Gestionar usuarios mediante un CRUD, registrar usuarios - loguear usuarios, - Encriptar el password - Generar un token de autenticación - Proteger las rutas de las API de acceso no autorizado",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
